@@ -1,0 +1,154 @@
+.logo{
+	max-height: 4rem;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	paint-order: 5px;
+}
+html {height:100%} 
+body>.container {
+	min-height:75vh;
+	padding-bottom: 100px;
+}
+.navbar{
+	min-width:100vw; 
+}
+
+yellow{
+  color:#FFBF00;
+}
+
+.admin-btn, .admin-btn:active {
+	font-weight: 800;
+	color: white !important;
+	border-color: #FFBF00 !important;
+	border-radius: 10px;
+	background-color: transparent;
+	padding: 5px 10px 5px 10px;
+	font-size: 10pt;
+	min-height: 20px;
+	margin: 0px 0px 0px 0px;
+}
+.admin-btn:active {
+	background-color: #FFBF00;
+}
+.navbar-brand{
+  color:white !important;
+  font-size: 2rem;
+  font-family: 'theboldfont'
+}
+
+.navbar-fixed-top{
+	position: relative;
+	border-color: transparent;
+	background-color: #3c3d41;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  ;
+}
+
+.navbar-nav>li>a{
+  color:white !important;
+  align-items: right;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.dropdown-menu>li>a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+  border-color: transparent;
+}
+
+
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before,
+.active>a{
+  transition: all .5s;
+}
+.navbar-nav>li>a:hover {
+  color: #FFBF00 !important;
+  background-color: transparent;
+}
+.dropdown-menu>li>a:hover {
+  color: #FFBF00;
+  background-color: transparent !important;
+}
+.navbar-nav>li>.dropdown-menu{
+	background-color: rgb(0,0,0,0.7) !important;
+}
+
+.navbar-nav .open>a, .navbar-nav .open>a:focus, .navbar-nav .open>a:hover {
+	background-color: rgb(0,0,0,0.7);
+}
+
+.navbar-navli>a{
+  position: relative;
+
+}
+.navbar-nav>li>a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.navbar-nav>li>a:hover:after {
+  width: 100%;
+}
+
+@font-face {
+	font-family: 'gobold';
+	src: url('Gobold Extra2.otf'); 
+	/*src: 
+		local('Gobold Extra2'),
+		url('Gobold Extra2.otf') 
+		format('opentype');*/
+}
+
+@font-face {
+	font-family: 'theboldfont';
+	src: url('theboldfont.ttf'); 
+	/*src: 
+		local('Gobold Extra2'),
+		url('Gobold Extra2.otf') 
+		format('opentype');*/
+}
+
+.page-header{
+	display: block;
+  	padding: 15px;
+  	text-decoration: none;
+  	color: gray;
+  	text-transform: uppercase;
+  	margin: 0 10px;
+  	border-color: transparent;
+  	font-weight: 800;
+  	font-family: 'gobold';
+
+}
+
+
